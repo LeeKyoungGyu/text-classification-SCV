@@ -1,0 +1,60 @@
+기존 대화형식 : 
+1 : 요즘 날이 더운데 대중교통에 사람들도 많아서 너무 힘든 거 같아요.
+2 : 네 너무 힘들어요
+2 : 오토바이가 있으면 오토바이 타고 오고 싶네요
+2 : 오토바이 타보셨나요?
+1 : 네네 학창 시절에 많이 탔었습니다!
+1 : 오토바이 좋아하세요?
+-------------------------
+이런 대화 형식인데, 
+---------------------
+"오늘 날씨 어때?
+맑고 따뜻해.
+좋네! 주말에 계획 있어?
+등산 갈 생각이야.
+재밌겠다!
+최근에 본 영화 있어?
+아직, 좋은 영화 있어?"
+--------------------------
+이런 대화 형식처럼 고쳐주고 
+1, 2, : 없애주고, 대화의 시작과 시작과 끝은 ","을 넣어 
+나에게 'csv'로 파일을 줘야해
+a1에0 idx, b1에 class, c1에 conversation을 입력해주고
+아래로 순차적으로 데이터를 입력하면 되
+idx는 4951번 부터고, b열은 전부 1을 입력해주고, c열에는 데이터를 입력해주면 되
+폴더 내의 모든 데이터를 1개의 cvs파일로 만들어줘
+
+-----------------------------
+
+
+
+Existing conversation format: 
+1: It's hot these days and there are a lot of people on public transportation, so I think it's very difficult.
+2: Yes, it’s so hard
+2: If I have a motorcycle, I want to ride it.
+2: Have you ever ridden a motorcycle?
+1: Yes, I rode a lot during my school days!
+1: Do you like motorcycles?
+-------------------------
+This is a conversation format, 
+---------------------
+“How is the weather today?
+Clear and warm.
+Great! Do you have any plans for the weekend?
+I'm thinking of going hiking.
+It's gonna be fun!
+Have you seen any movies recently?
+“Are there any good movies yet?”
+--------------------------
+Fix it like this conversation format 
+1, 2: Remove it, and add "," to the beginning, beginning, and end of the conversation. 
+You need to give me the file as 'csv'
+Enter 0 idx in a1, class in b1, and conversation in c1.
+Just enter the data sequentially below.
+idx starts from number 4951, enter all 1 in column b, and enter data in column c.
+Convert all data in the folder into one cvs file.
+
+
+------------------
+마지막했던 1, 2 : 지웠던 문구
+Remove 1 :, 2 :, 3 : and provide it as a csv file.
